@@ -6,6 +6,7 @@
 *{
     background-color: #10101a !important;
     color: white;
+    scroll-behavior: smooth;
 }
 
 /* Text */
