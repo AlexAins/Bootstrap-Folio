@@ -1,5 +1,6 @@
 *{
     background-color: #10101a !important;
+    color: white;
 }
 
 /* Text */
@@ -13,6 +14,10 @@ p {
 }
 
 /* Nav Bar */
+
+.customNav a{
+    color: white;
+}
 
 .navbar-nav{
     margin-left: auto;
