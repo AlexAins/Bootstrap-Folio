@@ -4,6 +4,9 @@
     --rainbow3: linear-gradient(to right, black, black, black, black, violet, cyan, blue, black, black, black, black);
     --background: #10101a;
     --backgroundNav: #0d0d16;
+    --Primarycolor:rgb(206, 229, 249);
+    --Secondcolor:rgb(144, 160, 174);
+    --Thirdcolor:rgb(96, 103, 111);
 }
 
 *{
@@ -81,6 +84,9 @@ h1, h2, h3 , h4, h5, h6 {
     -webkit-text-fill-color: transparent;
 }
 
+.secondaryJumbo{
+    color: var(--Secondcolor);
+}
 
 /* Projects */
 .customProd1{
@@ -89,6 +95,11 @@ h1, h2, h3 , h4, h5, h6 {
 
 .customProd2{
     justify-content: space-around;
+}
+
+/* About me and Skills */
+.customHead1 h3{
+    color: var(--Secondcolor) !important;
 }
 
 /* Contact Me */
