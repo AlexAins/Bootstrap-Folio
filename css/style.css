@@ -1,3 +1,7 @@
+:root{
+    --rainbow: linear-gradient(to right, violet, cyan, blue);
+}
+
 *{
     background-color: #10101a !important;
     color: white;
@@ -24,6 +28,10 @@ p {
     margin-right: 0 !important;
 }
 
+.nav-item{
+    padding: 15px;
+}
+
 /* Jumbotron */
 
 .customJumbo1{
@@ -37,7 +45,13 @@ p {
 
 .customJumbo2 h1{
     font-size: 100px;
+    background: var(--rainbow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+
 
 /* Projects */
 
