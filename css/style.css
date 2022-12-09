@@ -1,6 +1,7 @@
 :root{
     --rainbow: linear-gradient(to right, violet, cyan, blue);
     --rainbow2: linear-gradient(to right, violet, cyan, blue, black, black, black, black, black, black, black,black);
+    --rainbow3: linear-gradient(to right, black, black, black, black, violet, cyan, blue, black, black, black, black);
     --background: #10101a;
     --backgroundNav: #0d0d16;
 }
@@ -30,7 +31,6 @@ h1, h2, h3 , h4, h5, h6 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 40px;
-    margin-left: 5vh;
 }
 
 
@@ -89,4 +89,16 @@ h1, h2, h3 , h4, h5, h6 {
 
 .customProd2{
     justify-content: space-around;
+}
+
+/* Contact Me */
+#ContactMe {
+    text-align: center;
+}
+
+#ContactMe h2{
+    background: var(--rainbow3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
