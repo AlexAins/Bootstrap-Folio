@@ -1,5 +1,6 @@
 :root{
     --rainbow: linear-gradient(to right, violet, cyan, blue);
+    --rainbow2: linear-gradient(to right, violet, cyan, blue, black, black, black, black, black, black, black,black);
 }
 
 *{
@@ -8,13 +9,24 @@
 }
 
 /* Text */
+p {
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+
+
+/* Heading */
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
 
-p {
-    font-family: 'Jura', sans-serif;
-    font-size: 20px;
+.customHead h2{
+    background: var(--rainbow2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    margin-left: 5vh;
 }
 
 /* Nav Bar */
