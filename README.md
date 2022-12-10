@@ -23,4 +23,4 @@ As shown in the screenshot below:
 N/A
 
 ## Deployed Application
-Link to deployed webpage: 
+Link to deployed webpage: https://alexains.github.io/Bootstrap-Portfolio/

@@ -145,6 +145,24 @@ h1, h2, h3 , h4, h5, h6 {
 }
 
 /* About me and Skills */
+#AboutMeSkills{
+    background-color: var(--background) !important;
+}
+
+.customAbout{
+    background-color: var(--background) !important;
+}
+
+.customAbout1, .customAbout1 p, .customAbout1 h3, .customAbout1 div{
+    background-color: var(--background) !important;
+}
+
+.customAbout2, .customAbout2 h3, .customAbout2 h4, .customAbout2 ul, .customAbout2 li, .customAbout2 div{
+    background-color: var(--background) !important;
+}
+
+
+
 .customHead1 h3{
     color: var(--Secondcolor) !important;
 }
@@ -160,3 +178,5 @@ h1, h2, h3 , h4, h5, h6 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* Footer */
