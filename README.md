@@ -16,7 +16,7 @@ This portfolio was created as a platform to show previous work, allowing for eas
 This was used to show off the use of Bootstrap Library.
 
 As shown in the screenshot below:
-![alt text]()
+![alt text](./images/127.0.0.1_5500_index.html%20(1).png)
 
 ## Credits
 
