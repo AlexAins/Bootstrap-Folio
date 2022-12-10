@@ -180,3 +180,10 @@ h1, h2, h3 , h4, h5, h6 {
 }
 
 /* Footer */
+.customFooter, .customFooter div, .customFooter a{
+    background-color: var(--backgroundNav) !important;
+}
+
+.customFooter{
+    height: 150px;
+}
