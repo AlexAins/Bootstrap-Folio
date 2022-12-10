@@ -2,7 +2,8 @@
     --rainbow: linear-gradient(to right, violet, cyan, blue);
     --rainbow2: linear-gradient(to right, violet, cyan, blue, black, black, black, black, black, black, black,black);
     --rainbow3: linear-gradient(to right, black, black, black, black, violet, cyan, blue, black, black, black, black);
-    --background: #10101a;
+    --background: #23233b;
+    --background2: #1a1a2c;
     --backgroundNav: #0d0d16;
     --Primarycolor:rgb(206, 229, 249);
     --Secondcolor:rgb(144, 160, 174);
@@ -10,9 +11,9 @@
 }
 
 *{
-    background-color: var(--background)!important;
     color: white;
     scroll-behavior: smooth;
+    background-color: var(--background2) !important;
 }
 
 
@@ -85,13 +86,29 @@ h1, h2, h3 , h4, h5, h6 {
 
 
 /* Jumbotron */
+.customJumbotron{
+    background-color: var(--background)!important;
+}
+
 .customJumbo1{
     align-items: center;
     justify-content: center;
+    background-color: var(--background)!important;
 }
 
-.customJumbotron img{
+.customJumbo2{
+    background-color: var(--background)!important;
+}
+
+.customJumbo3{
+    display: flex;
+    background-color: var(--background) !important;
+    justify-content: center;
+}
+
+.customJumbo3 img{
     max-width: 500px;
+    background-color: var(--background)!important;
 }
 
 .customJumbo2 h1{
@@ -100,13 +117,20 @@ h1, h2, h3 , h4, h5, h6 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-color: var(--background)!important;
+}
+
+.customJumbo2 p{
+    background-color: var(--background)!important;
 }
 
 .secondaryJumbo{
     color: var(--Secondcolor);
+    background-color: var(--background)!important;    
 }
 
 /* Projects */
+
 .customProd1{
     justify-content: space-around;
 }
