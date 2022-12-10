@@ -69,6 +69,20 @@ h1, h2, h3 , h4, h5, h6 {
     background-color: var(--background) !important;
 }
 
+.customNavItem:hover a{
+    text-decoration-line: underline;
+    color: cyan !important;
+}
+
+.customNavItem2:hover{
+    text-decoration-line: underline;
+    color: cyan !important;
+}
+
+.customNavDrop:hover{
+    color: cyan !important;
+}
+
 
 /* Jumbotron */
 .customJumbo1{
